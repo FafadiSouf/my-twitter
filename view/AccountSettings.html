@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../controller/AccountSettings.js"></script>
+    <link rel="stylesheet" href="../style/output.css">
+    <link rel="icon" type="image/x-icon" href="../assets/oizo.png">
+    <title>Paramètres de compte</title>
+</head>
+<body class="bg-gray-500">
+<a href="Compte.html" class="leading-10 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Retour à mon compte</a>
+
+
+    <form method="post" name="changeEmailForm" class="max-w-sm py-16 mx-auto">
+ 
+        <div class="mb-5">
+            <label for="oldEmail" class="block mb-2 text-sm font-medium text-white dark:text-gray-900">Mail actuel</label>
+            <input type="text" name="oldEmail" id="oldEmail" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        </div>
+
+        <div class="mb-5">
+            <label for="newEmail" class="block mb-2 text-sm font-medium text-white dark:text-gray-900">Nouveau mail</label>
+            <input type="text" name="newEmail" id="newEmail" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        </div>
+        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Changer d'email</button>
+      </form>
+      
+
+
+      <form method="post" name="changePasswordForm" class="max-w-sm mx-auto">
+
+        <div class="mb-5">
+            <label for="oldPassword" class="block mb-2 text-sm font-medium text-white dark:text-gray-900">Mot de passe actuel</label>
+            <input type="password" name="oldPassword" id="oldPassword" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        </div>
+
+        <div class="mb-5">
+            <label for="newPassword" class="block mb-2 text-sm font-medium text-white dark:text-gray-900">Nouveau mot de passe</label>
+            <input type="password" name="newPassword" id="newPassword" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        </div>
+        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Changer de mot de passe</button>
+      </form>
+            
+
+</body>
+</html>
